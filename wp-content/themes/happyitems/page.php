@@ -15,11 +15,11 @@ get_header();
 		<main id="main" class="site-main">
 
 			<?php
-            print_r(have_posts() ? 'simon' : 'nel');
+            //print_r(have_posts() ? 'simon' : 'nel');
 			// Start the Loop.
 			if ( have_posts() ) {
-                print_r($post);
-                //echo $post->post_content;
+                //print_r($post);
+                echo $post->post_content;
 				//the_post();
 
 				//get_template_part( 'template-parts/content/content', 'page' );
